@@ -19,3 +19,12 @@ go usa camelCase. Quando começo o nome da função com letra minuscula, signifi
 uma string pode ser vazia, mas não nula. Toda string é imutavel. Quando 'mudamos' uma string é como se criassemos uma nova
 
 o comando ``gofmt -w main.go`` formata seus arquivos go seguindo as melhores praticas (https://go.dev/blog/gofmt)
+
+## Day-2
+
+pacote ``os`` para manipular arquivos
+
+as variaveis existem na memoria ram, os arquivos existem na memoria secundaria. Quando carregamos um arquivo inteiro no codigo, ele vai todo pra memoria primaria. Se o arquivo for muito grande, isso causara problemas de performance. EVITAR ISSO. 
+Para evitar isso, usamos buffers para ler os arquivos (bufio)
+
+todo file é um reader pq ele implementa a interface reader
