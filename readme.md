@@ -28,3 +28,5 @@ as variaveis existem na memoria ram, os arquivos existem na memoria secundaria. 
 Para evitar isso, usamos buffers para ler os arquivos (bufio)
 
 todo file é um reader pq ele implementa a interface reader
+
+## Day-3
