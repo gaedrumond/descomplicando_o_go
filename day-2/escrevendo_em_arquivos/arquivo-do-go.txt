@@ -1,0 +1,1 @@
+to escrevendo em arquivo usando go!!!!!
